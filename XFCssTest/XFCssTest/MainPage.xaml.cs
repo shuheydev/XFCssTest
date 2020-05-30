@@ -13,9 +13,13 @@ namespace XFCssTest
     [DesignTimeVisible(false)]
     public partial class MainPage : ContentPage
     {
+        public string Style { get; set; }
         public MainPage()
         {
             InitializeComponent();
+
+            this.BindingContext = this;
+            Style = "btn1";
         }
     }
 }

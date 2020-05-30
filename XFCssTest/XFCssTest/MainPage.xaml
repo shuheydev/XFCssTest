@@ -13,7 +13,7 @@
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand"/>
 
-        <Button Text="ヘロー" StyleClass="btn"/>
+        <Button Text="ヘロー" StyleClass="{Binding }"/>
 
     </StackLayout>
 
